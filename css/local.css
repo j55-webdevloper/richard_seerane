@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+.text-primary{
+    color: #a21a83 !important;
+}
+
+.bg-primary{
+    background-color: #a21a83 !important;
+}
+
+.btn-primary{
+    background-color: #a21a83 !important;
+    border: 1px solid #a21a83 !important;
+    padding: 10px 25px !important;
+}
+
+.text-black{
+    color:  #111111 !important;
+}
+
+.bg-black{
+    background-color:  #111111 !important;
+}
+
+.text-dgrey{
+    color: #333333 !important;
+}
+
+.bg-dgrey{
+    background-color: #333333 !important;
+}
+
+.text-grey{
+    color: #666666 !important;
+}
+
+.bg-grey{
+    background-color: #666666 !important;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#support-page{
+    background: url(../img/section-bg.jpg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    font-size: 0.9em;
+}
+
+nav{
+    width: 88%;
+    margin: 0 auto !important;
+}
+
+.navbar-nav > li > a{
+    font-size: 0.7rem !important;
+    font-weight: 600;
+    color:  #111111 !important;
+    padding: 10px !important;
+}
+
+.nav-link:hover{
+    border-top: 2px solid #a21a83;
+    border-bottom: 2px solid #a21a83;
+    color: #a21a83 !important;
+}
+
+.nav-link.active{
+    border-top: 2px solid #a21a83;
+    border-bottom: 2px solid #a21a83;
+    color: #a21a83 !important;
+}
+
+#logo{
+    width: 260px;
+}
+
+.navbar-toggler{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#hero{
+    height: 79vh;
+    position: relative;
+    background: url(../img/main-slide-001.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: bigger 4s ease-in-out forwards;
+    animation-delay: 0ms;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(162, 26, 131, 0.6);
+}
+
+#about{
+    margin-top: -7%;
+}
+
+input, textarea{
+    border: none !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid white !important;
+}
+
+input:focus, textarea:focus{
+    border: none !important;
+    /* box-shadow: 1.5px 1.5px , -1.5px -1.5px !important; */
+}
+
+.heading-border{
+    border-bottom: 3.5px solid #a21a83;
+    padding-bottom: 15px;
+}
+
+#about-contact{
+    box-shadow: 3px 3px 6px rgba(51, 51, 51, 0.3) !important;
+}
+
+#services{
+    margin-top: 70px;
+    height: 250px;
+    background: url(../img/division-bg.jpg);
+    background-position: center;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#services-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+#services-block{
+    margin-top: -4%;
+    z-index: 1;
+}
+
+.service-block{
+    border: 1px solid rgba(209, 208, 208, 0.5);
+}
+
+.service-block > h5{
+    font-weight: 600;
+}
+
+#custom-list{
+    list-style: none;
+}
+  
+#custom-list li::before{
+content: "\2022";
+color: #a21a83;
+font-weight: bold;
+display: inline-block; 
+width: 1em;
+margin-left: -1em;
+}
+
+#strategic{
+    margin-top: 70px;
+    height: 250px;
+    background: url(../img/partners-bg.jpg);
+    background-position: center;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#strategic-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+#strategic-block{
+    margin-top: -4%;
+    z-index: 1;
+}
+
+.service-block{
+    border: 1px solid rgba(209, 208, 208, 0.5);
+}
+
+img{
+    margin: 0 auto !important;
+}
+
+.partner-block{
+    border: 1px solid rgba(209, 208, 208, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer{
+    margin-top: 70px;
+}
+
+.footer-list li{
+    list-style-type: none !important;
+}
+
+.col-md-2 > i{
+    font-size: 1.6em;
+}
+
+.col-md-10 > a{
+    font-size: 0.8em;
+}
+
+#about-us{
+    height: 180px;
+    background: url(../img/about-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#tracing-services{
+    height: 180px;
+    background: url(../img/tracing-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#verification-services{
+    height: 180px;
+    background: url(../img/veri-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-list{
+    list-style: none;
+}
+  
+.custom-list li::before{
+    content: "\2022";
+    color: #a21a83;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.custom-list li{
+    font-size: 0.9em;
+    color: #666666;
+}
+
+.vid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#criminal-services{
+    height: 180px;
+    background: url(../img/intell-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#forensic-services{
+    height: 180px;
+    background: url(../img/forensic-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#contact-us{
+    height: 180px;
+    background: url(../img/contact-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-form{
+    padding: 0px !important;
+}
+
+.c-page{
+    border: none !important
+}
+
+.c-page{
+    border-bottom: 1px solid #e7e7e7 !important;
+}
+
+.c-page::placeholder{
+    font-size: 0.9em;
+    color: #999999 !important;
+}
+
+.address{
+    line-height: 30px;
+}
+
+/* Media Queries */
+
+@media(max-width: 767px){
+    #about{
+        margin-top: 20px !important;
+    }
+}
+
+@media(max-width: 429px){
+    nav{
+        width: 100% !important;
+        margin: 0px !important;
+    }
+    #logo{
+        width: 200px;
+    }
+
+    #hero{
+        height: 50vh;
+    }
+
+    #hero > div > div > h1{
+        font-size: 1.2rem;
+    }
+}
+
+/* Keyframes */
+/* @keyframes bigger{
+    0%{
+       background-size: 100%;
+    }
+    50%{
+        background-size: 100%;
+    }
+    100%{
+        background-size: 130%;
+    }
+} */

@@ -1,0 +1,6 @@
+Colors:
+Purple - #a21a83
+Black - #111111
+White - #ffffff
+Dark grey - #333333
+grey - #666666
